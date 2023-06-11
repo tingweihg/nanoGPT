@@ -1,0 +1,14 @@
+Traceback (most recent call last):
+  File "D:\GitHub\nanoGPT\train.py", line 260, in <module>
+    losses = estimate_loss()
+  File "D:\GitHub\nanoGPT\env\lib\site-packages\torch\utils\_contextlib.py", line 115, in decorate_context
+    return func(*args, **kwargs)
+  File "D:\GitHub\nanoGPT\train.py", line 220, in estimate_loss
+    logits, loss = model(X, Y)
+  File "D:\GitHub\nanoGPT\env\lib\site-packages\torch\nn\modules\module.py", line 1501, in _call_impl
+    return forward_call(*args, **kwargs)
+  File "D:\GitHub\nanoGPT\model.py", line 194, in forward
+    loss = F.cross_entropy(logits.view(-1, logits.size(-1)), targets.view(-1), ignore_index=-1)
+  File "D:\GitHub\nanoGPT\env\lib\site-packages\torch\nn\functional.py", line 3029, in cross_entropy
+    return torch._C._nn.cross_entropy_loss(input, target, weight, _Reduction.get_enum(reduction), ignore_index, label_smoothing)
+KeyboardInterrupt

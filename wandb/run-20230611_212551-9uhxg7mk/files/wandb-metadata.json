@@ -1,0 +1,53 @@
+{
+    "os": "Windows-10-10.0.22621-SP0",
+    "python": "3.9.13",
+    "heartbeatAt": "2023-06-11T13:25:52.188830",
+    "startedAt": "2023-06-11T13:25:51.367423",
+    "docker": null,
+    "cuda": null,
+    "args": [
+        ".\\config\\train_api583.py",
+        "--device=cpu"
+    ],
+    "state": "running",
+    "program": "D:\\GitHub\\nanoGPT\\train.py",
+    "codePath": "train.py",
+    "git": {
+        "remote": "https://github.com/tingweihg/nanoGPT.git",
+        "commit": "ea2b565eb50f4e8913c56df299ae3b78384d4492"
+    },
+    "email": "tingweihg@gmail.com",
+    "root": "D:/GitHub/nanoGPT",
+    "host": "Talex",
+    "username": "tingw",
+    "executable": "D:\\GitHub\\nanoGPT\\env\\Scripts\\python.exe",
+    "cpu_count": 8,
+    "cpu_count_logical": 16,
+    "cpu_freq": {
+        "current": 2496.0,
+        "min": 0.0,
+        "max": 2496.0
+    },
+    "cpu_freq_per_core": [
+        {
+            "current": 2496.0,
+            "min": 0.0,
+            "max": 2496.0
+        }
+    ],
+    "disk": {
+        "total": 5589.012691497803,
+        "used": 599.9293365478516
+    },
+    "gpu": "NVIDIA GeForce RTX 3090",
+    "gpu_count": 1,
+    "gpu_devices": [
+        {
+            "name": "NVIDIA GeForce RTX 3090",
+            "memory_total": 25769803776
+        }
+    ],
+    "memory": {
+        "total": 63.87064743041992
+    }
+}

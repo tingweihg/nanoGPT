@@ -1,0 +1,20 @@
+Traceback (most recent call last):
+  File "D:\GitHub\nanoGPT\train.py", line 260, in <module>
+    losses = estimate_loss()
+  File "D:\GitHub\nanoGPT\env\lib\site-packages\torch\utils\_contextlib.py", line 115, in decorate_context
+    return func(*args, **kwargs)
+  File "D:\GitHub\nanoGPT\train.py", line 220, in estimate_loss
+    logits, loss = model(X, Y)
+  File "D:\GitHub\nanoGPT\env\lib\site-packages\torch\nn\modules\module.py", line 1501, in _call_impl
+    return forward_call(*args, **kwargs)
+  File "D:\GitHub\nanoGPT\model.py", line 188, in forward
+    x = block(x)
+  File "D:\GitHub\nanoGPT\env\lib\site-packages\torch\nn\modules\module.py", line 1501, in _call_impl
+    return forward_call(*args, **kwargs)
+  File "D:\GitHub\nanoGPT\model.py", line 111, in forward
+    x = x + self.attn(self.ln_1(x))
+  File "D:\GitHub\nanoGPT\env\lib\site-packages\torch\nn\modules\module.py", line 1501, in _call_impl
+    return forward_call(*args, **kwargs)
+  File "D:\GitHub\nanoGPT\model.py", line 72, in forward
+    y = torch.nn.functional.scaled_dot_product_attention(q, k, v, attn_mask=None, dropout_p=self.dropout if self.training else 0, is_causal=True)
+KeyboardInterrupt

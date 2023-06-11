@@ -1,0 +1,4 @@
+
+step 0: train loss 3.6050, val loss 2.5586
+iter 0: loss 3.9169, time 7655218.17ms, mfu -100.00%
+iter 10: loss 2.8992, time 48953.94ms, mfu 0.08%

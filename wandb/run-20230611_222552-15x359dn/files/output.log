@@ -1,0 +1,22 @@
+
+step 0: train loss 3.7815, val loss 2.9609
+Traceback (most recent call last):
+  File "D:\GitHub\nanoGPT\train.py", line 296, in <module>
+    logits, loss = model(X, Y)
+  File "D:\GitHub\nanoGPT\env\lib\site-packages\torch\nn\modules\module.py", line 1501, in _call_impl
+    return forward_call(*args, **kwargs)
+  File "D:\GitHub\nanoGPT\model.py", line 188, in forward
+    x = block(x)
+  File "D:\GitHub\nanoGPT\env\lib\site-packages\torch\nn\modules\module.py", line 1501, in _call_impl
+    return forward_call(*args, **kwargs)
+  File "D:\GitHub\nanoGPT\model.py", line 112, in forward
+    x = x + self.mlp(self.ln_2(x))
+  File "D:\GitHub\nanoGPT\env\lib\site-packages\torch\nn\modules\module.py", line 1501, in _call_impl
+    return forward_call(*args, **kwargs)
+  File "D:\GitHub\nanoGPT\model.py", line 95, in forward
+    x = self.c_fc(x)
+  File "D:\GitHub\nanoGPT\env\lib\site-packages\torch\nn\modules\module.py", line 1501, in _call_impl
+    return forward_call(*args, **kwargs)
+  File "D:\GitHub\nanoGPT\env\lib\site-packages\torch\nn\modules\linear.py", line 114, in forward
+    return F.linear(input, self.weight, self.bias)
+torch.cuda.OutOfMemoryError: CUDA out of memory. Tried to allocate 100.00 MiB (GPU 0; 24.00 GiB total capacity; 22.99 GiB already allocated; 0 bytes free; 23.14 GiB reserved in total by PyTorch) If reserved memory is >> allocated memory try setting max_split_size_mb to avoid fragmentation.  See documentation for Memory Management and PYTORCH_CUDA_ALLOC_CONF

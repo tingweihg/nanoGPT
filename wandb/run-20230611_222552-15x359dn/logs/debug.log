@@ -1,0 +1,27 @@
+2023-06-11 22:25:52,878 INFO    MainThread:24156 [wandb_setup.py:_flush():76] Current SDK version is 0.15.4
+2023-06-11 22:25:52,878 INFO    MainThread:24156 [wandb_setup.py:_flush():76] Configure stats pid to 24156
+2023-06-11 22:25:52,878 INFO    MainThread:24156 [wandb_setup.py:_flush():76] Loading settings from C:\Users\tingw\.config\wandb\settings
+2023-06-11 22:25:52,878 INFO    MainThread:24156 [wandb_setup.py:_flush():76] Loading settings from D:\GitHub\nanoGPT\wandb\settings
+2023-06-11 22:25:52,878 INFO    MainThread:24156 [wandb_setup.py:_flush():76] Loading settings from environment variables: {}
+2023-06-11 22:25:52,878 INFO    MainThread:24156 [wandb_setup.py:_flush():76] Applying setup settings: {'_disable_service': False}
+2023-06-11 22:25:52,879 INFO    MainThread:24156 [wandb_setup.py:_flush():76] Inferring run settings from compute environment: {'program_relpath': 'train.py', 'program': 'D:\\GitHub\\nanoGPT\\train.py'}
+2023-06-11 22:25:52,879 INFO    MainThread:24156 [wandb_init.py:_log_setup():507] Logging user logs to D:\GitHub\nanoGPT\wandb\run-20230611_222552-15x359dn\logs\debug.log
+2023-06-11 22:25:52,879 INFO    MainThread:24156 [wandb_init.py:_log_setup():508] Logging internal logs to D:\GitHub\nanoGPT\wandb\run-20230611_222552-15x359dn\logs\debug-internal.log
+2023-06-11 22:25:52,879 INFO    MainThread:24156 [wandb_init.py:init():547] calling init triggers
+2023-06-11 22:25:52,879 INFO    MainThread:24156 [wandb_init.py:init():554] wandb.init called with sweep_config: {}
+config: {'out_dir': 'out/api583-xl', 'eval_interval': 250, 'log_interval': 10, 'eval_iters': 200, 'eval_only': False, 'always_save_checkpoint': True, 'init_from': 'gpt2-xl', 'wandb_log': True, 'wandb_project': 'api583-expert-sys', 'wandb_run_name': 'api583-v1-gpt-xl-1', 'dataset': 'api583', 'gradient_accumulation_steps': 1, 'batch_size': 32, 'block_size': 256, 'n_layer': 12, 'n_head': 6, 'n_embd': 384, 'dropout': 0.2, 'bias': False, 'learning_rate': 0.001, 'max_iters': 500000, 'weight_decay': 0.1, 'beta1': 0.9, 'beta2': 0.99, 'grad_clip': 1.0, 'decay_lr': True, 'warmup_iters': 100, 'lr_decay_iters': 5000, 'min_lr': 0.0001, 'backend': 'nccl', 'device': 'cuda', 'dtype': 'bfloat16', 'compile': False}
+2023-06-11 22:25:52,880 INFO    MainThread:24156 [wandb_init.py:init():596] starting backend
+2023-06-11 22:25:52,880 INFO    MainThread:24156 [wandb_init.py:init():600] setting up manager
+2023-06-11 22:25:52,882 INFO    MainThread:24156 [backend.py:_multiprocessing_setup():106] multiprocessing start_methods=spawn, using: spawn
+2023-06-11 22:25:52,885 INFO    MainThread:24156 [wandb_init.py:init():606] backend started and connected
+2023-06-11 22:25:52,894 INFO    MainThread:24156 [wandb_init.py:init():703] updated telemetry
+2023-06-11 22:25:52,926 INFO    MainThread:24156 [wandb_init.py:init():736] communicating run to backend with 60.0 second timeout
+2023-06-11 22:25:53,407 INFO    MainThread:24156 [wandb_run.py:_on_init():2176] communicating current version
+2023-06-11 22:25:53,651 INFO    MainThread:24156 [wandb_run.py:_on_init():2185] got version response 
+2023-06-11 22:25:53,651 INFO    MainThread:24156 [wandb_init.py:init():787] starting run threads in backend
+2023-06-11 22:25:53,751 INFO    MainThread:24156 [wandb_run.py:_console_start():2155] atexit reg
+2023-06-11 22:25:53,752 INFO    MainThread:24156 [wandb_run.py:_redirect():2010] redirect: SettingsConsole.WRAP_RAW
+2023-06-11 22:25:53,752 INFO    MainThread:24156 [wandb_run.py:_redirect():2075] Wrapping output streams.
+2023-06-11 22:25:53,752 INFO    MainThread:24156 [wandb_run.py:_redirect():2100] Redirects installed.
+2023-06-11 22:25:53,752 INFO    MainThread:24156 [wandb_init.py:init():828] run started, returning control to user process
+2023-06-11 22:31:07,455 WARNING MsgRouterThr:24156 [router.py:message_loop():77] message_loop has been closed
